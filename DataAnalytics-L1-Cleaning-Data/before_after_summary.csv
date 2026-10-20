@@ -1,0 +1,3 @@
+,Rows,Columns,Missing values,Duplicate rows,Correct data types
+Before cleaning,891,12,866,0,9/12
+After cleaning,891,12,0,0,12/12

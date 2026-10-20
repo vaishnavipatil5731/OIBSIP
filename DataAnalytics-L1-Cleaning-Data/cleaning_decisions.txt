@@ -1,0 +1,18 @@
+OASIS INFOBYTE - DATA CLEANING DECISIONS
+
+Dataset: Titanic passenger dataset
+
+1. Removed exact duplicate rows.
+2. Filled missing Age values with the median.
+3. Filled missing Embarked values with the mode.
+4. Created CabinKnown to preserve cabin availability.
+5. Dropped Cabin because it contained many missing values.
+6. Standardized Sex to lowercase and Embarked to uppercase.
+7. Converted PassengerId to string and checked numeric data types.
+8. Used the IQR method to identify potential outliers.
+9. Retained potential outliers because they may be legitimate
+   passenger values; they were not automatically removed.
+10. Saved a before-and-after data quality summary.
+
+Missing-value handling and outlier decisions should be reviewed
+before using this dataset for any statistical analysis.

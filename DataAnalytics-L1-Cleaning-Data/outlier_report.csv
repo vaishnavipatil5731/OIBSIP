@@ -1,0 +1,5 @@
+Column,Lower bound,Upper bound,Potential outliers,Decision
+Age,2.5,54.5,66,Retained; values may be legitimate
+Fare,-26.724,65.6344,116,Retained; values may be legitimate
+SibSp,-1.5,2.5,46,Retained; values may be legitimate
+Parch,0.0,0.0,213,Retained; values may be legitimate
